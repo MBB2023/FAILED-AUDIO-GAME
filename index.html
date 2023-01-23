@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Scuffed Voice Number Guessing Games</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <div class="container">
+          <form class = "form">
+            <input type="text" id="guessField" class="guessField">
+            <h1>Voice Guessing Game</h1>
+            <p class="page-description">Game where you guess numbers with your voice (yay)</p>
+
+            <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+    
+                <button id="start-record-btn" title="Start Recording"><strong>Start</strong> Microphone</button>
+                <button id="pause-record-btn" title="Pause Recording"><strong> Stop </strong> Microphone</button>
+                <button id="guess-number-btn" title="Save Guess">Guess</button>   
+                <p id="recording-instructions">Press the <strong>Start Microphone</strong> button and allow access.</p>
+                
+                <h3>Previous Guesses</h3>
+                <ul id="guess">
+                    <li>
+                        <p class="no-guesses">You have yet to guess</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+
+    </body>
+</html>
+
+

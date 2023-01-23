@@ -1,0 +1,19 @@
+Everything listed here are stuff I have learned and want to be able to refer upon when needed.
+
+=
+/> Slashes are not required but habit and nothing of harm
+charset = Encoding Method
+Viewport = Opimization for mobile and other systems
+Content = Grabs the users screen width to display accordingly
+Intital Scale = Base zoom size for the user upon use
+Link = Connecting something to html
+Preconnect = Allows the broswer to connect ahead of time incase something is needed
+href = Directs where we want it to go to, in our instance the google library of fonts
+crossorigin = allows any origins other than its own from which a browser should permit loading resources
+Script Source = Grabs a javascript file from another location
+Div Class = A way to seperate elements in the html file
+Header = Header with title and sub title
+RecordRTC.js = Voice Recogition library 
+el = element
+querySelector = returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned
+const = constants that can be redefined
